@@ -1,0 +1,16 @@
+/*
+    ミックスインの定義
+*/
+
+@mixin sp {
+    @media (max-width: 768px) {
+        @content;
+    }
+ }
+ 
+ 
+ @mixin tab {
+    @media (max-width: 992px) {
+        @content;
+    }
+ }
